@@ -284,3 +284,23 @@ input[type="email"]{
     border: none;
     margin: 0px 15px;
 }
+.payment{
+    margin-top: 30px;
+    height: 400px;
+    text-align: center;
+}
+.payment-title{
+    display: inline-block;
+    
+}
+.payment-logo{
+    margin: 20px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+}
+.payment-logo img{
+    height: 100px;
+    /* width: 100px; */
+}
