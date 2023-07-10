@@ -268,39 +268,76 @@ body {
     justify-content: center;
     align-items: center;
 }
-.latest-title{
+
+.latest-title {
     font-size: 35px;
     font-weight: 600;
 }
-.latest-text>.small-text{
+
+.latest-text>.small-text {
     font-size: 12px;
 }
-.latest-text{
+
+.latest-text {
     text-align: center;
 }
-input[type="email"]{
+
+input[type="email"] {
     width: 400px;
     height: 40px;
     border: none;
     margin: 0px 15px;
 }
-.payment{
+
+
+/* ***Payment section*** */
+.payment {
     margin-top: 30px;
     height: 400px;
     text-align: center;
 }
-.payment-title{
+
+.payment-title {
     display: inline-block;
-    
+
 }
-.payment-logo{
+
+.payment-logo {
     margin: 20px 0px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 70px;
 }
-.payment-logo img{
+
+.payment-logo img {
     height: 100px;
     /* width: 100px; */
+}
+
+
+/* ***Footer section*** */
+footer {
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.footer-text>.small-text {
+    color: white;
+    padding-bottom: 10px;
+}
+
+#last-foot {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
