@@ -2,18 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
-
 body {
     font-family: 'Lato', sans-serif;
 }
-
 .head {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content: flex-start;
     background-size: cover;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
 }
 
 .head-title {
@@ -26,22 +24,25 @@ body {
     padding-bottom: 10px;
     font-weight: 800;
 }
-.small-text{
+
+.small-text {
     color: rgba(39, 39, 39, 0.60);
     padding: 10px 0px;
     font-size: 16px;
 }
 
 .head-image {
-    padding-top: 25px;
+    padding-top: 118px;
     padding-left: 40px;
+    
 }
 
 .head-image>img {
-    width: 450px;
-    height: 550px;
+    width: 550px;
+    height: 600px;
 }
-.btn{
+
+.btn {
     padding: 10px 15px;
     margin: 20px 0px;
     border-radius: 6px;
@@ -49,4 +50,75 @@ body {
     border: 0px;
     color: white;
     font-size: 16px;
+}
+
+.feature {
+    margin-top: 90px;
+    height: 90vh;
+}
+
+.feature-title {
+    text-align: center;
+    margin-bottom: 30px;
+    
+
+}
+
+.feat-title {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 17px;
+    font-weight: 700;
+}
+.flower-pic{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.bg-pink {
+    height: 400px;
+    width: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.bg-pink>img{
+    height: 300px;
+    margin: 0px 70px;
+    padding-top: 100px;
+}
+
+.bg-blue {
+    height: 400px;
+    width: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.bg-blue>img{
+    height: 300px;
+    margin: 0px 30px;
+    padding-top: 70px;
+}
+
+.bg-gray {
+    height: 400px;
+    width: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.bg-gray>img{
+    height: 350px;
+    margin: 0px 50px;
+    padding-top: 50px;
+}
+.caption{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    gap: 240px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
 }
