@@ -2,9 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
     font-family: 'Lato', sans-serif;
 }
+
 .head {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -34,7 +36,7 @@ body {
 .head-image {
     padding-top: 118px;
     padding-left: 40px;
-    
+
 }
 
 .head-image>img {
@@ -60,7 +62,7 @@ body {
 .feature-title {
     text-align: center;
     margin-bottom: 30px;
-    
+
 
 }
 
@@ -70,7 +72,8 @@ body {
     padding: 17px;
     font-weight: 700;
 }
-.flower-pic{
+
+.flower-pic {
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -84,7 +87,8 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-.bg-pink>img{
+
+.bg-pink>img {
     height: 300px;
     margin: 0px 70px;
     padding-top: 100px;
@@ -96,7 +100,8 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
-.bg-blue>img{
+
+.bg-blue>img {
     height: 300px;
     margin: 0px 30px;
     padding-top: 70px;
@@ -108,12 +113,14 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
-.bg-gray>img{
+
+.bg-gray>img {
     height: 350px;
     margin: 0px 50px;
     padding-top: 50px;
 }
-.caption{
+
+.caption {
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -121,4 +128,26 @@ body {
     font-size: 20px;
     font-weight: 600;
     padding-top: 10px;
+}
+
+.logo{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1160px;
+    margin: 50px 265px;
+    height: 250px;
+}
+.logo-img{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-text{
+    display: flex;
+    justify-content: space-around;
+    padding-right:60px;
+    padding-top: 15px;
+    gap: 20px;
+    font-weight: 600;
 }
