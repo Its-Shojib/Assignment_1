@@ -12,7 +12,7 @@ body {
 /* ***Header section*** */
 .head {
     display: flex;
-    background: rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.15);
     justify-content: flex-start;
     background-size: cover;
     align-items: center;
@@ -55,7 +55,7 @@ body {
     background: #E55473;
     border: 0px;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* ***Feature section*** */
@@ -137,38 +137,33 @@ body {
 /* ***Logo section*** */
 .logo {
     border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    margin: 50px 260px;
+    background: rgba(39, 39, 39, 0.1);
+    margin: 50px 185px;
     height: 250px;
 }
 
-.logo-img {
+.logo-img{
     padding-top: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
-.logo-text {
-    display: flex;
-    justify-content: space-around;
-    padding-right: 60px;
-    padding-top: 15px;
-    gap: 20px;
-    font-weight: 600;
-}
 
 /* ***Hot-deal section*** */
-
 .hot-deal {
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    height: 60vh;
+    background: rgba(229, 84, 115, 0.1);
+    height: 450px;
     display: flex;
     justify-content: space-around;
     gap: 100px;
     align-items: center;
-    padding: 0px 400px;
+    padding: 0px 300px;
+}
+.hot-text{
+    text-align: center;
 }
 
 .hot-title {
@@ -182,10 +177,6 @@ body {
 
 .hot-text>.small-text {
     text-align: center;
-}
-
-.hot-text>.btn {
-    margin-left: 120px;
 }
 
 .hot-img>img {
@@ -213,42 +204,42 @@ body {
 }
 
 .box-1 {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
 .box-1>img {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
 .box-2 {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
 .box-2>img {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
 .box-3 {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
 .box-3>img {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
 .box-4 {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
 .box-4>img {
-    height: 260px;
+    height: 280px;
     width: 260px;
 }
 
@@ -256,12 +247,12 @@ body {
 /* ***Latest-Deal section*** */
 .latest {
     background-image: url('./asset/Rectangle 9.png');
-    width: 1120px;
+    /* width: 1120px; */
     height: 349px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 100px 0px;
-    margin-left: 285px;
+    margin: 100px 200px;
+    /* margin-left: 285px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,14 +281,15 @@ input[type="email"] {
 
 /* ***Payment section*** */
 .payment {
-    margin-top: 30px;
-    height: 400px;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    height: 300px;
     text-align: center;
+    background: rgba(229, 84, 115, 0.10);
 }
 
 .payment-title {
     display: inline-block;
-
 }
 
 .payment-logo {
@@ -317,7 +309,7 @@ input[type="email"] {
 /* ***Footer section*** */
 footer {
     background-color: black;
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 100px;
     color: white;
     text-align: center;
