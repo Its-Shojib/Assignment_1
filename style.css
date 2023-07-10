@@ -167,75 +167,120 @@ body {
     background: rgba(229, 84, 115, 0.05);
     height: 60vh;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 100px;
     align-items: center;
     padding: 0px 400px;
 }
-.hot-title{
+
+.hot-title {
     font-size: 30px;
     padding: 10px 0px;
 }
 
-.pink{
+.pink {
     color: #E55473;
 }
-.hot-text>.small-text{
-    text-align:center;
+
+.hot-text>.small-text {
+    text-align: center;
 }
-.hot-text>.btn{
+
+.hot-text>.btn {
     margin-left: 120px;
 }
-.hot-img>img{
+
+.hot-img>img {
     height: 350px;
 }
 
 
 /* ***Instagram section*** */
-.insta{
+.insta {
     margin-top: 40px;
     text-align: center;
 }
-.insta-title{
+
+.insta-title {
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 10px;
 }
-.boxes{
+
+.boxes {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 25px;
     margin: 30px 0px;
 }
-.box-1{
+
+.box-1 {
     height: 260px;
     width: 260px;
 }
-.box-1>img{
+
+.box-1>img {
     height: 260px;
     width: 260px;
 }
-.box-2{
+
+.box-2 {
     height: 260px;
     width: 260px;
 }
-.box-2>img{
+
+.box-2>img {
     height: 260px;
     width: 260px;
 }
-.box-3{
+
+.box-3 {
     height: 260px;
     width: 260px;
 }
-.box-3>img{
+
+.box-3>img {
     height: 260px;
     width: 260px;
 }
-.box-4{
+
+.box-4 {
     height: 260px;
     width: 260px;
 }
-.box-4>img{
+
+.box-4>img {
     height: 260px;
     width: 260px;
+}
+
+
+/* ***Latest-Deal section*** */
+.latest {
+    background-image: url('./asset/Rectangle 9.png');
+    width: 1120px;
+    height: 349px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 100px 0px;
+    margin-left: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest-title{
+    font-size: 35px;
+    font-weight: 600;
+}
+.latest-text>.small-text{
+    font-size: 12px;
+}
+.latest-text{
+    text-align: center;
+}
+input[type="email"]{
+    width: 400px;
+    height: 40px;
+    border: none;
+    margin: 0px 15px;
 }
