@@ -13,7 +13,7 @@ body {
     justify-content: flex-start;
     background-size: cover;
     align-items: center;
-    height: 90vh;
+    height: 95vh;
 }
 
 .head-title {
@@ -34,7 +34,7 @@ body {
 }
 
 .head-image {
-    padding-top: 118px;
+    padding-top: 167px;
     padding-left: 40px;
 
 }
@@ -130,24 +130,54 @@ body {
     padding-top: 10px;
 }
 
-.logo{
+.logo {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1160px;
     margin: 50px 265px;
     height: 250px;
 }
-.logo-img{
+
+.logo-img {
     padding-top: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.logo-text{
+
+.logo-text {
     display: flex;
     justify-content: space-around;
-    padding-right:60px;
+    padding-right: 60px;
     padding-top: 15px;
     gap: 20px;
     font-weight: 600;
+}
+
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 60vh;
+    display: flex;
+    justify-content:space-around;
+    gap: 100px;
+    align-items: center;
+    padding: 0px 400px;
+}
+.hot-title{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.pink{
+    color: #E55473;
+}
+.hot-text>.small-text{
+    text-align:center;
+}
+.hot-text>.btn{
+    margin-left: 150px;
+}
+.hot-img>img{
+    height: 350px;
 }
