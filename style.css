@@ -16,7 +16,7 @@ body {
     justify-content: flex-start;
     background-size: cover;
     align-items: center;
-    height: 95vh;
+    height: 650px;
 }
 
 .head-title {
@@ -36,15 +36,16 @@ body {
     font-size: 16px;
 }
 
-.head-image {
+/* .head-image {
     padding-top: 167px;
     padding-left: 40px;
-
-}
+} */
 
 .head-image>img {
     width: 500px;
     height: 550px;
+    padding-top: 105px;
+    padding-left: 40px;
 }
 
 .btn {
@@ -66,8 +67,6 @@ body {
 .feature-title {
     text-align: center;
     margin-bottom: 30px;
-
-
 }
 
 .feat-title {
@@ -139,8 +138,7 @@ body {
 .logo {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 1160px;
-    margin: 50px 265px;
+    margin: 50px 260px;
     height: 250px;
 }
 
